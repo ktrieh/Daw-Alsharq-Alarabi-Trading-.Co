@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Location</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f8f9fa;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    .location-link {
+      margin: 10px;
+      padding: 15px 25px;
+      color: white;
+      background-color: #007bff;
+      border: none;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .location-link:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h2>Select a Location</h2>
+  <a class="location-link" href="https://maps.app.goo.gl/JgXehnosc1d4JTTg9" target="_blank">Dammam</a>
+  <a class="location-link" href="https://goo.gl/maps/X1UDUWvmtwkJyyJ17" target="_blank">Riyadh</a>
+</body>
+</html>
